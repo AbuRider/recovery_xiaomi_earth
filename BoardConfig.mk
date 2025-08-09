@@ -220,23 +220,5 @@ TW_CUSTOM_CPU_POS := "310"
 TW_CUSTOM_CLOCK_POS := "70"
 TW_CUSTOM_BATTERY_POS := "790"
 
-# PBRP
-PB_DISABLE_DEFAULT_DM_VERITY := true
-PB_DISABLE_DEFAULT_PATCH_AVB2 := true
-PB_DISABLE_DEFAULT_TREBLE_COMP := true
-PB_TORCH_PATH := "/sys/class/leds/flashlight"
-
-# SHRP
-SHRP_PATH := device/xiaomi/earth
-SHRP_MAINTAINER := JanDimple
-SHRP_DEVICE_CODE := earth
-SHRP_FLASH := 1
-SHRP_FONP_1 := /sys/class/leds/flashlight/brightness
-SHRP_FLASH_MAX_BRIGHTNESS := 2047
-SHRP_NOTCH := true
-SHRP_EXTERNAL := /external_sd
-SHRP_INTERNAL := /sdcard
-SHRP_OTG := /usb_otg
-SHRP_REC := /dev/block/by-name/boot
-SHRP_DARK := true
-SHRP_OFFICIAL := false
+# Maintainer
+TW_DEVICE_VERSION := Pria_Tampan
